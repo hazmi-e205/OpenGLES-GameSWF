@@ -1,0 +1,13 @@
+*.directory
+OGLES/build-*
+OGLES/qtproject/qtproject.pro.user
+*.user
+
+projects/CodeBlocks/OGL-CodeBlocks\.layout
+
+projects/CodeBlocks/bin/
+projects/CodeBlocks/obj/
+Libraries/libpng-1.6.35/projects/vstudio/libpng/Debug
+Libraries/libpng-1.6.35/projects/vstudio/zlib/Debug
+
+*.depend
