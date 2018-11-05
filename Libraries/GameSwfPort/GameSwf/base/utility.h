@@ -25,7 +25,7 @@
 #define strncasecmp _strnicmp
 #define isnan _isnan
 
-#ifdef SVN_RELEASE
+#ifdef _WIN32
 
 	// It will help users to send messages about bugs
 	#undef assert

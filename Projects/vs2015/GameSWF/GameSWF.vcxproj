@@ -19,46 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\configvars.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\container.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\cschema.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\demo.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\dlmalloc.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\ear_clip_triangulate.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\ear_clip_triangulate_impl.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\file_util.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\grid_index.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\image.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\jpeg.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\logger.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\membuf.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\ogl.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\png_helper.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\postscript.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\smart_ptr.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\Stackwalker.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\triangulate.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\triangulate_impl.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_config.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_file.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_gc.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_gc_singlethreaded_marksweep.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_gc_singlethreaded_refcount.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_gc_test_impl.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_loadlib.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_math.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_memdebug.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_opengl_includes.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_queue.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_random.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_swap.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_timer.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_types.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\utf8.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\utility.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\vert_types.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\weak_ptr.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\zlib_adapter.h" />
     <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\compatibility_include.h" />
     <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf.h" />
     <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_abc.h" />
@@ -130,54 +90,8 @@
     <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_text.h" />
     <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_types.h" />
     <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_value.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\cderror.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\cdjpeg.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jchuff.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jconfig.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdct.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdhuff.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jerror.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jinclude.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jmemsys.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jmorecfg.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jpegint.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jpeglib.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jversion.h" />
-    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\transupp.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\component_hackery.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\configvars.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\container.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\demo.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\dlmalloc.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\ear_clip_triangulate_float.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\ear_clip_triangulate_sint16.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\file_util.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\GCBench.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\image.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\image_filters.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\jpeg.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\logger.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\membuf.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\ogl.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\png_helper.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\postscript.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\Stackwalker.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\test_ogl.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\triangulate_float.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\triangulate_sint32.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_file.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_file_SDL.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_gc_singlethreaded_marksweep.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_gc_test.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_loadlib.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_random.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_timer.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\tu_types.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\utf8.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\utility.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\zlib_adapter.cpp" />
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_abc.cpp" />
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_action.cpp" />
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_as_classes\as_array.cpp" />
@@ -258,70 +172,8 @@
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_types.cpp" />
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_value.cpp" />
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_video_impl.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\cdjpeg.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jcapimin.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jcapistd.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jccoefct.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jccolor.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jcdctmgr.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jchuff.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jcinit.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jcmainct.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jcmarker.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jcmaster.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jcomapi.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jcparam.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jcphuff.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jcprepct.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jcsample.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jctrans.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdapimin.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdapistd.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdatadst.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdatasrc.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdcoefct.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdcolor.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jddctmgr.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdhuff.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdinput.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdmainct.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdmarker.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdmaster.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdmerge.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdphuff.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdpostct.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdsample.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jdtrans.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jerror.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jfdctflt.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jfdctfst.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jfdctint.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jidctflt.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jidctfst.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jidctint.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jidctred.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jmemansi.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jmemmgr.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jquant1.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jquant2.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\jutils.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\rdbmp.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\rdcolmap.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\rdgif.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\rdppm.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\rdrle.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\rdswitch.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\rdtarga.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\transupp.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\wrbmp.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\wrgif.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\wrppm.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\wrrle.c" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\jpeglib\wrtarga.c" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\Makefile" />
-    <None Include="..\..\..\Libraries\GameSwfPort\GameSwf\base\Makefile.in" />
     <None Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_batch_run.py" />
     <None Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_batch_test.py" />
   </ItemGroup>
@@ -396,11 +248,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\..\..\Libraries\GameSwfPort\GameSwf</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\..\Libraries\pthread\include;$(SolutionDir)\..\..\Libraries\GameSwfPort\GameSwf</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies />
+      <AdditionalDependencies>pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\..\..\Libraries\pthread\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
