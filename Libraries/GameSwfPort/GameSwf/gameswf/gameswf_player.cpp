@@ -230,9 +230,9 @@ namespace gameswf
 	const char* get_gameswf_version()
 	{
 #ifdef WIN32
-	static tu_string s_gameswf_version("WIN "__DATE__" "__TIME__);
+    static tu_string s_gameswf_version("OpenGL-GameSWF (Win32) port started at November 8, 2018");
 #else
-	static tu_string s_gameswf_version("LINUX "__DATE__" "__TIME__);
+    static tu_string s_gameswf_version("OpenGL-GameSWF (Android) port started at xxxxxxxx xx, xxxx");
 #endif
 		
 		return s_gameswf_version.c_str();

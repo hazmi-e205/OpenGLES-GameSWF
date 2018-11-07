@@ -315,7 +315,7 @@ enum {
 
 #if !defined(HAVE_STRUCT_TIMESPEC)
 #define HAVE_STRUCT_TIMESPEC
-#if !defined(_TIMESPEC_DEFINED)
+#if !defined(_TIMESPEC_DEFINED) && !defined(_WIN32) //no need in VS2015
 #define _TIMESPEC_DEFINED
 struct timespec {
         time_t tv_sec;
