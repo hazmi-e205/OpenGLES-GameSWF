@@ -6,6 +6,9 @@
 #ifndef SOUND_HANDLER_SDL_H
 #define SOUND_HANDLER_SDL_H
 
+#include "gameswf_config.h"
+
+#if defined (USE_GAMESWF_SoundSDL)
 #include "base/tu_config.h"
 
 #ifdef TU_USE_SDL
@@ -390,7 +393,7 @@ namespace gameswf
 }
 
 #endif // SOUND_HANDLER_SDL_H
-
+#endif
 #endif // TU_USE_SDL
 
 // Local Variables:

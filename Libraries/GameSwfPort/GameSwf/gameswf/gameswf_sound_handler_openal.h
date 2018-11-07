@@ -8,6 +8,9 @@
 #ifndef SOUND_HANDLER_OPENAL_H
 #define SOUND_HANDLER_OPENAL_H
 
+#include "gameswf_config.h"
+
+#if defined (USE_GAMESWF_OpenAL)
 #include "base/tu_config.h"
 
 #ifdef TU_USE_OPENAL
@@ -128,5 +131,5 @@ namespace gameswf
 }
 
 #endif
-
+#endif
 #endif //TU_USE_SDL

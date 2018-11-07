@@ -230,6 +230,7 @@
     <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_as_classes\as_boolean.h">
       <Filter>gameswf\gameswf_as_classes</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf_config.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_abc.cpp">
@@ -362,9 +363,6 @@
       <Filter>gameswf</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_tesselate.cpp">
-      <Filter>gameswf</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_test_ogl.cpp">
       <Filter>gameswf</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_text.cpp">

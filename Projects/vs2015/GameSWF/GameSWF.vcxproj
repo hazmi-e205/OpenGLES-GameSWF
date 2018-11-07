@@ -90,6 +90,7 @@
     <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_text.h" />
     <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_types.h" />
     <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_value.h" />
+    <ClInclude Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf_config.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_abc.cpp" />
@@ -166,7 +167,6 @@
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_stream.cpp" />
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_styles.cpp" />
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_tesselate.cpp" />
-    <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_test_ogl.cpp" />
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_text.cpp" />
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_tools.cpp" />
     <ClCompile Include="..\..\..\Libraries\GameSwfPort\GameSwf\gameswf\gameswf_types.cpp" />

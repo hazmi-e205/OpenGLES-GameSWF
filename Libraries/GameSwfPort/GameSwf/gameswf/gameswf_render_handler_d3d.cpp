@@ -6,7 +6,9 @@
 // A gameswf::render_handler that uses DX8 or DX9.  
 // Based on the xbox code by Thatcher Ulrich <http://tulrich.com> 2003
 
+#include "gameswf_config.h"
 
+#if defined (USE_GAMESWF_D3D)
 #include <windows.h>
 #include <assert.h>
 #include "gameswf/gameswf.h"
@@ -1491,6 +1493,7 @@ void  gameswf::release_render_handler_d3d(gameswf::render_handler* rend_hndlr)
 	render_handler_d3d* hndlr = dynamic_cast<render_handler_d3d*>(rend_hndlr);
 	hndlr->on_release_device();
 }
+#endif
 
 // Local Variables:
 // mode: C++

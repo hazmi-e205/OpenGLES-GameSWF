@@ -5,6 +5,9 @@
 
 // OpenGL ES based video handler for mobile units
 
+#include "gameswf_config.h"
+
+#if defined (USE_GAMESWF_IWGL_by_SDL)
 #include "base/tu_config.h"
 
 #ifdef TU_USE_OGLES
@@ -1445,6 +1448,7 @@ render_handler*	create_render_handler_iwgl()
 }
 
 #endif	// USE_SDL
+#endif
 
 // Local Variables:
 // mode: C++

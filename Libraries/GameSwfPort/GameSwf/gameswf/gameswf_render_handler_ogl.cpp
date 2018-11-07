@@ -5,6 +5,9 @@
 
 // A gameswf::render_handler that uses SDL & OpenGL
 
+#include "gameswf_config.h"
+
+#if defined (USE_GAMESWF_OGL_by_SDL)
 #include "base/tu_config.h"
 
 #ifdef TU_USE_SDL
@@ -1869,6 +1872,7 @@ gameswf::render_handler*	gameswf::create_render_handler_ogl()
 }
 
 //#endif //TU_USE_SDL
+#endif
 
 // Local Variables:
 // mode: C++
